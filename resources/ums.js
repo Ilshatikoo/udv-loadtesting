@@ -2,7 +2,6 @@ import http from "k6/http";
 import { BaseHelper } from "../helpers/baseHelper.js";
 
 let baseHelper = new BaseHelper();
-// body в json.stringify?
 export class UmsService {
     constructor(baseUrl) {
         this.baseUrl = baseUrl;
